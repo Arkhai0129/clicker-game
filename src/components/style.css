@@ -1,5 +1,5 @@
 .box {
-  width: 300px;
+  width: 20vh;
   height: 200px;
   color: white;
   display: flex;
@@ -8,6 +8,7 @@
   border-radius: 20px;
   padding: 10px;
   margin-top: 25px;
+  margin: 10px;
 }
 
 .Green {
@@ -23,7 +24,7 @@
 
 .container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .box h1 {
@@ -36,10 +37,10 @@
 
 .main-area {
   height: 50vh;
-  width: 78vw;
+  width: 75vh;
   border: solid 1px black;
   background-color: rgb(238, 238, 238);
-  margin-left: 200px;
+  margin-left: 600px;
   margin-right: 200px;
   margin-top: 25px;
   display: flex;
@@ -48,4 +49,8 @@
   font-size: 40px;
   border-radius: 25px;
   cursor: pointer;
+}
+
+.main-area:active {
+  transform: scale(0.98);
 }
